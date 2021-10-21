@@ -1,0 +1,4 @@
+//Compiling
+qmk compile -kb handwired/Best Board Ever -km Lord_Reset
+//Compile (dont save) and flash
+qmk flash -kb handwired/Best Board Ever -km Lord_Reset

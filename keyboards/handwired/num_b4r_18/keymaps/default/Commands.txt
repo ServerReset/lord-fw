@@ -1,0 +1,4 @@
+//Compiling
+qmk compile -kb handwired/num_b4r_18 -km default
+//Compile (dont save) and flash
+qmk flash -kb handwired/num_b4r_18 -km default
