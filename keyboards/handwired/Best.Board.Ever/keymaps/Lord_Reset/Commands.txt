@@ -1,4 +1,16 @@
-//Compiling
-qmk compile -kb handwired/Best Board Ever -km Lord_Reset
+// QMK Compiling
+qmk compile -kb handwired/Best.Board.Ever -km Lord_Reset
 //Compile (dont save) and flash
-qmk flash -kb handwired/Best Board Ever -km Lord_Reset
+qmk flash -kb handwired/Best.Board.Ever -km Lord_Reset
+
+// VIA
+// Open VIA
+// Go to 'Settings' Tab
+// Turn on 'Show Design Tab'
+// In the 'Design' tab either drag and drop or load the 'VIA DRAFT.json' file
+// My default layout can be imported, it is called 'LORD LAYOUT.json'
+
+// Reccomened Parts
+// Pro Micro Compatible MCU, Elite C for Wired or Nice!Nano for Wireless are my goto's
+// Millmax Ultra Low Profile Headers and pins
+// For wireless builds a 357095 battery
